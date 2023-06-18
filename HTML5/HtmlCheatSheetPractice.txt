@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HTML Cheat Sheet</title>
+</head>
+<!-- This setup is the barebones necessary before adding content into the body -->
+
+<body>
+	<!--Text Elements -->
+	<!-- Headings -->
+	<h1>Heading 1</h1>
+	<h2>Heading 2</h2>
+	<h3>Heading 3</h3>
+	<h4>Heading 4</h4>
+	<h5>Heading 5</h5>
+	<hr />
+
+    <!-- Paragraph -->
+	<p>
+	This is a paragraph tag. It will disaplay any text within the tag in the form of a paragraph on the web page. It's a pretty straightforward concept. I don't really know what else to say here so I'm just gonna type random stuff to fill space.</p>
+	<hr />
+
+	<!--Links -->
+	<a href="https://buzzfunk.squarespace.com/">The Buzz</a>
+
+	<!-- Line Break -->
+	<p>
+		This is an example of a <br /> 
+		Line Break tag
+	</p>
+
+	<!-- Abbreviation -->
+	<p>
+		The
+		<abbr title="World Health Organization">
+			WHO
+		</abbr>
+		was founded in 1948.
+	</p>
+
+	<!-- Cite -->
+	<p>
+		<cite>The Disco Biscuits</cite>
+		formed as a band in 1995.
+	</p>
+
+	<!-- Italics/Emphasis -->
+	<p>
+		you can also use the <i>Italics</i> tag to put a word into <i>Italics</i>. You can also use the <em> Emphasis</em> tag to put text in <em>Italics</em>
+	</p>
+
+	<!-- Bold/Strong -->
+	<p>
+		You can use the <b>Bold</b> tag to make a selection of words display in bold font. using the <strong>Strong</strong> tag will also make the text bold.
+	</p>
+
+	<!-- Blockquote -->
+	<blockquote
+		cite="https://buzzfunk.squarespace.com/about">
+		This is how you can use the <b>Blockquote</b> tag to take a paragraph or section of words that are to be displayed as a Block of quoted text on a page. I have the citation source for the "quote" set to The Buzz Biography page.
+	</blockquote>
+
+	<!-- Quotation -->
+	<p>
+		<q>Have you seen my stapler?</q> he asked curiously.
+	</p>
+
+	<!-- Keyboard -->
+	<p>
+		Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text.
+	</p>
+
+	<!-- Code -->
+	<p> 
+		The CSS <code>background-color</code> property defines the background color of an element.
+	</p>
+
+
+	<!-- Sample -->
+	<p> Task Completed Successfully!</p>
+	<p>
+		<samp> Press Enter to Continue</samp>
+	</p>
+
+	<!-- Small Text -->
+	<small> 
+	This text is very small and not very important
+    </small>
+
+    <!-- Span -->
+    <p>
+    	If you ever need to separate 
+    	<span>a part of text so that you can style it in CSS,</span> it is best to use the <b>Span</b> tag.
+    </p>
+    <hr />
+
+    <!-- Superscript -->
+    <h3>
+    	Price: $245 <sup>99</sup>
+    </h3>
+
+    <!--Subscript -->
+    <h3>
+    	Now that's some high quality H<sub>2</sub>0
+    </h3>
+
+
+    <!-- Address -->
+    <address>
+    Coded by 
+    <a href="mailto:thomaswnelson2@gmail.com">Tom Nelson
+    </a>.
+    <br />
+    Visit us at:<br />
+    https://buzzfunk.squarespace.com/<br />
+    123 Fake st, Denver, CO, 12345<br />
+    USA
+</address>
+
+<!-- Lists -->
+<!-- Ordered Lists -->
+<p>Here is an Example of an <b>Ordered</b> list:
+	<ol>
+		<li>Wake up</li>
+		<li>Shower</li>
+		<li>Get Dressed</li>
+		<li>Make Coffee</li>
+		<li>Drive to Work</li>
+	</ol>
+</p>
+
+<!-- Unordered List -->
+<p>Here is an example of an <b>Unordered</b> list:
+	<ul>
+		<li>Phish</li>
+		<li>The Disco Biscuits</li>
+		<li>String Cheese Incident</li>
+		<li>The Grateful Dead</li>
+		<li>Umphrey's McGee</li>
+	</ul>
+</p>
+
+<!-- Description List -->
+<p>Here is an example of a <b>Description</b> list:
+	<dl>
+		<dt>Coffee</dt>
+		<dd>A hot, black drink</dd>
+		<dt>BLTA</dt>
+		<dd>Bacon</dd>
+		<dd>Lettuce</dd>
+		<dd>Tomato</dd>
+		<dd>Avocado</dd>
+	</dl>
+</p>
+
+<!-- Data -->
+<ul>
+	<li>
+		<data value="21053">
+			Cherry Tomato
+		</data>
+	</li>
+	<data value="21054">
+		Beef Tomato
+	</data>
+	<li>
+		<date value="21055">
+			Snack Tomato
+		</date>
+	</li>
+</ul>
+
+<!-- Deleted & Inserted Text -->
+<p>
+	My favorite color is <del>purp</del><ins>blue</ins>.
+</p>
+
+<!-- Definition -->
+<p>
+	<dfn>HTML</dfn> is the standard markup language for creating webpages.
+</p>
+
+<!-- Horizontal Line/Rule -->
+<hr />
+
+<!-- Mark -->
+<p>
+	Don't forget to fasten your <mark>seatbelt</mark> when you drive.
+</p>
+ 
+
+ <!-- Pre & Code -->
+ <pre>
+ 	Text in a "pre" element is displayed in a fixed-width font, and it preserves both     spaces and
+
+ 	line breaks. 
+ </pre>
+
+<!-- BDO -->
+<p>
+	This paragraph will go left-to-right.
+</p>
+<p>
+	<bdo dir="rtl">
+		This paragraph will go right-to-left.
+	</bdo>
+</p>
+
+<!-- Ruby (mostly used on chinese/japanese characters with other characters displayed above the symbol) -->
+<ruby>
+	Example
+	<rp>(</rp>
+	<rt>345</rt>
+	<rp>)</rp>
+</ruby>
+
+<!-- Inaccurate Text -->
+<p>
+	<s>Bruce Wayne is Superman</s>
+</p>
+<p>Clark Kent is Superman</p>
+
+<!-- Misspelled/Underlined Words -->
+<p>
+	This is some <u>mispeled</u> text.
+</p>
+
+<!-- Variables -->
+<p>
+	The area of a triangle is:1/2 x <var>b</var> x 
+	<var>h</var>, where <var>b</var> is the base, and 
+	<var>h</var> is the vertical height.
+</p>
+
+<!-- Word Break -->
+<p>A very looooooooooooooooooooooo
+	oooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooooo
+	oooooooooooooooooooooooooooo
+	ooooooooooong
+	<wbr />
+	wordthatbreaksonsmallscreens
+</p>
+</body>
+</html>
